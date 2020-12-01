@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style type="text/css">
+    .root {
+      background-color: orange;
+    }
+    .second {
+      background-color: lightgreen;
+    }
+    .third {
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+
+  </div>
+  <script type="text/javascript" src="js/vue.js"></script>
+  <script type="text/javascript">
+    /*
+      Vue调试工具安装与基本使用
+    */
+    var vm = new Vue({
+      el: '#app',
+      data: {
+        root: '顶层组件'
+      }
+    });
+  </script>
+</body>
+</html>
